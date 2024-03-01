@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RightSide = () => {
+const Elapsed = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const RightSide = () => {
   )
 }
 
-export default RightSide
+export default Elapsed
