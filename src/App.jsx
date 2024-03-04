@@ -15,11 +15,11 @@ function App() {
     <div className='flex justify-center items-center h-screen'>
       {/* Overlay */}
       <div className=" bg-black/50 absolute top-0 left-0 right-0 bottom-0" />
-       <div className='w-[1130px] h-[720px] bg-white z-0 rounded-3xl'>    
+       <div className='w-[1150px] h-[750px] bg-white z-0 rounded-3xl'>    
       <Header />  
       <Dropdown />
-      <Elapsed />
       <Upload />
+      <Elapsed />
       <Questions />
       <TestingCenter />
        </div>

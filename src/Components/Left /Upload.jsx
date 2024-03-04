@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFileLines } from '@fortawesome/free-solid-svg-icons'
+
 
 const Upload = () => {
   return (
@@ -8,12 +11,18 @@ const Upload = () => {
     Select a manifest you'd like to import
       </h1>
     </div>
-     <div className='relative w-[500px] h-[200px] border-2 active:border-gray-300 mx-20 mt-1 rounded-lg'>
-      <div className='relative w-[100px] h-[30px] border-2 active:border-gray-300 mx-20 rounded-md'>
-
+     <div className='relative w-[535px] h-[235px] border-2 border-gray-300 mx-20 mt-2 rounded-lg'>
+      <div className='relative w-[490px] h-[130px] border-2 border-gray-300  my-6 mx-[21px] rounded-md'>
+        <div className='flex justify-center items-center h-16 pt-6'>
+      <FontAwesomeIcon icon={faFileLines} style={{color: "#FFD43B",}} className=' size-6'/>
+        </div>
+      <h1 className='text-blue-950 flex justify-center items-center'>Drag & Drop Here or <span className='font-bold text-blue-950 ps-1'>Browse</span></h1>
       </div>
+      <div className='flex justify-center items-center h-8 ps-1'>
+      <button className='bg-blue-950 text-white p-2 rounded-lg w-[300px] h-[55px]'>Upload Manifest</button>
+      </div>
+      <hr className='w-[60%] m-10 ml-0 border-[1px]'/>
      </div>
-      <hr className='w-[490px] m-4 self-center border-[1px]'/>
     </>
   )
 }
