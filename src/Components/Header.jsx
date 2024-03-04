@@ -14,7 +14,7 @@ const Header = () => {
      <div className='w-full'>
       <h1 className='font-bold text-4xl text-center flex-grow pr-14 tracking-wide text-blue-950 '>Document Upload</h1>
       <div className='mt-3'>
-      <hr className='border-[1px] border-gray-300 w-[28%] ml-[375px] mb-4'/>
+      <hr className='border-[1px] border-gray-300 w-[28%] ml-[400px] mb-4'/>
       </div>
      </div>
     </div>
