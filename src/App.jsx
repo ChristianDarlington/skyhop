@@ -16,8 +16,7 @@ function App() {
       {/* Overlay */}
       <div className=" bg-black/50 absolute top-0 left-0 right-0 bottom-0" />
        <div className='w-[1130px] h-[720px] bg-white z-0 rounded-3xl'>    
-      <Header />
-     
+      <Header />  
       <Dropdown />
       <Elapsed />
       <Upload />

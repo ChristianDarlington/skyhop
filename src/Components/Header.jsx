@@ -11,7 +11,7 @@ const Header = () => {
     <>
   <div className='flex justify-between items-center h-40'> 
     <FontAwesomeIcon icon={faSquareXmark} style={{color: "#043b5c"}} className=' text-5xl font-bold pb-20 px-4'/>
-      <h1 className='font-bold text-4xl text-center flex-grow pr-14 tracking-wide text-slate-800'>Document Upload</h1>
+      <h1 className='font-bold text-4xl text-center flex-grow pr-14 tracking-wide text-blue-950'>Document Upload</h1>
     </div>
     </>
   )
