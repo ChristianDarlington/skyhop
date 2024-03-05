@@ -19,6 +19,7 @@ const Upload = () => {
       <h1 className='text-blue-950 flex justify-center items-center'>Drag & Drop Here or <span className='font-bold text-blue-950 ps-1'>Browse</span></h1>
       </div>
       <div className='flex justify-center items-center h-8 ps-1'>
+       
       <button className='bg-blue-950 text-white p-2 rounded-lg w-[300px] h-[55px]'>Upload Manifest</button>
       </div>
       <div className='flex justify-center items-center mt-6'>
