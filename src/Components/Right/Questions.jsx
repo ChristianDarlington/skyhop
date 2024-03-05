@@ -11,7 +11,7 @@ const Questions = () => {
     <div className='flex p-4 gap-2 items-baseline m-1 '>
     <button className='rounded-full w-5 h-5 border-gray-500 border-2 '></button>
     <p className='text-blue-950 font-medium'>Yes</p>
-    <button className='rounded-full w-5 h-5 border-gray-500 border-2 '></button>
+    <button className='rounded-full w-5 h-5 border-gray-500 border-2 ml-6'></button>
     <p className='text-blue-950 font-medium'>No</p>
     </div>
     <hr className='border-[1px] m-3'/>
