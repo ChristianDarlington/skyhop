@@ -22,7 +22,7 @@ const Upload = () => {
       <button className='bg-blue-950 text-white p-2 rounded-lg w-[300px] h-[55px]'>Upload Manifest</button>
       </div>
       <div className='flex justify-center items-center mt-6'>
-      <hr className='w-[300px] m-8 border-[1px] '/>
+      <hr className='w-[300px] m-8 border-[1px] -left-[25px] top-[235px] absolute'/>
       </div>
      </div>
     </>

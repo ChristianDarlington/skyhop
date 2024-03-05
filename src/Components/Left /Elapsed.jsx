@@ -3,6 +3,7 @@ import React from 'react'
 const Elapsed = () => {
   return (
     <>
+    
     <div className='flex justify-center items-center h-[50px] w-[350px] pt-8'>
       <p className='font-bold'>
         Elapse Data Checking
