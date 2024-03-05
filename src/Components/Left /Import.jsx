@@ -4,7 +4,7 @@ const Import = () => {
   return (
     <>
     <div className='flex justify-center items-center h-10 w-[1310px]'>
-      <p className='font-extrabold text-blue-950 tracking-wide'>Data in the import is Correct. Please press Continue to import.</p>
+      <p className='font-extrabold text-blue-950'>Data in the import is Correct. Please press Continue to import.</p>
     </div>
       <div className='flex justify-center gap-4 m-1 pl-7'>
         <button className='bg-blue-950 text-white p-2 rounded-lg w-[250px] h-[45px]'>Continue Import</button>
